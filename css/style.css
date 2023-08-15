@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+	--color-textos:#838383;
+	--color-primario:#1379e7;
+	--color-titulos:#1a1a1a;
+	--fondo-footer-gris:#efefef;
+	--color-footer:#6d6d6d;
+}
+body{
+	font-size: 15px;
+	color: var(--color-textos);
+	font-weight: 400;
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+.titulos-section{
+	font-size: 30px;
+	color: var(--color-titulos);
+	font-weight: 500px;
+}
+
+header{
+	background-color: #fff;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+
+footer{
+	text-align: center;
+}
+
+footer #footer-sponsors h2{
+	color: var(--color-titulos);
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+footer #footer-sponsors h4{
+	color: var(--color-textos);
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-bottom: 2%;
+}
+footer #copyright{
+	background-color: var(--fondo-footer-gris);
+	background-size: cover;
+	padding: 2%;
+
+}
+
+.section{
+	padding: 8% 0;
+}
+.btn-primary{
+	border-radius: 100px;
+	padding: 15px 30px;
+	background-color: var(--color-primario);
+	color: #fff;
+	font-weight: 600;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.titulo{
+	font-size: 44px;
+	line-height: 1.3;
+	font-weight: 600;
+	color: var(--color-titulos);
+	font-style: normal;
+	margin-bottom: 20px;
+}
+
+#hero{
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	height: 100vh;
+	/*resto de propiedades*/
+}
+
+#hero h1{
+	color: var(--color-primario);
+	font-weight: 300px;
+	margin-top: 70%;
+}
+
+#hero p{
+	padding: 20px;
+	font-weight: 300px;
+	font-size: 14px;
+}
+
+.icons-hero{
+	margin-top: 170px;
+	text-align: center;
+}
+
+h3{
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 700;
+	color: var(--color-titulos);
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#privacy h2{
+	padding-bottom: 15px;
+}
+#privacy p{
+	padding-bottom: 17px;
+}
+#privacy ul{
+padding-left: 0;
+	
+}
+#privacy ul img{
+	padding-right: 10px;
+}
+
+#team h2 {
+	font-size: 80px;
+	font-weight: 500px;
+	text-align: center;
+	color: #f7f7f7;
+}
+
+#meet{
+	margin-top: 250px;
+}
+
+#meet a{
+	text-decoration: none;
+}
+
+#meet ul{
+	padding-left: 0;
+}
+#meet i{
+	padding-right: 10px;
+}
+
+.la-arrow-right{
+	color: var(--color-primario);
+}
+
+#meet ul{
+	padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
